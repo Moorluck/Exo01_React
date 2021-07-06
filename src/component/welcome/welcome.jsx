@@ -14,7 +14,7 @@ const Welcome = function(props) {
 
 Welcome.propTypes = {
     name: PropTypes.string.isRequired,
-    age: PropTypes.number.isRequired
+    age: PropTypes.number
 }
 
 Welcome.defaultProps = {
