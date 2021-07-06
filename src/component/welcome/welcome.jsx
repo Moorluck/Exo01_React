@@ -5,10 +5,10 @@ const Welcome = function(props) {
     const {name, age} = props;
 
     return(
-        <>
+        <div>
         <h1>Bienvenue <span className={type.name}>{name}</span> sur l'application React !</h1>
         <p>Vous avez <span className={type.age}>{age}</span> ans</p>
-        </>
+        </div>
     )
 }
 
